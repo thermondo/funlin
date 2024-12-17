@@ -79,6 +79,8 @@ fun anyFunctionName(
 
 ---
 
+[Documentation](https://github.com/thermondo/funlin/blob/main/docs/docs.md)
+
 <br>
 <br>
 <br>
