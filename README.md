@@ -22,9 +22,8 @@ plugins {
 ```kotlin
 funlin {
     enabled.set(true)
-    functionsVisitorEnabled.set(true)
-    functionsVisitorAnnotation.set("TrackIt")
-    functionsVisitorPath.set("dev.thermondo.android.app.AnyObjectNameYouWant.anyFunctionName")
+    annoatation.set("TrackIt")
+    callableTargetPath.set("dev.thermondo.android.app.AnyObjectNameYouWant.anyFunctionName")
 }
 ```
 

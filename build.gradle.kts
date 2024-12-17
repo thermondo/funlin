@@ -30,9 +30,8 @@ subprojects {
         buildConfigField<String>("PLUGIN_ID", "funlinPlugin")
         buildConfigField<String>("ENABLED", "enabled")
         buildConfigField<String>("LOGGING", "logging")
-        buildConfigField<String>("FUNCTIONS_VISITOR_ENABLED", "functionsVisitorEnabled")
-        buildConfigField<String>("FUNCTIONS_VISITOR_ANNOTATION", "functionsVisitorAnnotation")
-        buildConfigField<String>("FUNCTIONS_VISITOR_PATH", "functionsVisitorPath")
+        buildConfigField<String>("CALLABLE_TARGET_PATH", "callableTargetPath")
+        buildConfigField<String>("ANNOTATION", "annotation")
 
 
         buildConfigField<String>("EXTENSION_NAME", "funlin")
